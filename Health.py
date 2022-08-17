@@ -50,28 +50,28 @@ if user == 2:
     if Plan == 1:
         client = int(input("Choose your client \n 1 : Harry \n 2 : Rohan \n 3 : Vipul \n>>"))
         if client == 1:
-            f = open ("HarryDiet.txt","r+")
+            f = open ("HarryDiet.txt")
             print(f.read())
             f.close
         if client == 2:
-            f1 = open ("RohanDiet.txt","r+")
+            f1 = open ("RohanDiet.txt")
             print(f1.read())
             f1.close
         if client == 3:
-            f2 = open ("VipulDiet.txt","r+")
+            f2 = open ("VipulDiet.txt")
             print(f2.read())
             f2.close
     if Plan == 2:
         client = input("Choose your client \n 1 : Harry \n 2 : Rohan \n 3 : Vipul \n>>")
         if client == 1:
-            f3 = open ("HarryExercise.txt","r+")
+            f3 = open ("HarryExercise.txt")
             print(f3.read())
             f3.close
         if client == 2:
-            f4 = open ("RohanExercise.txt","r+")
+            f4 = open ("RohanExercise.txt")
             print(f4.read())
             f4.close
         if client == 3:
-            f5 = open ("VipulExercise.txt","r+")
+            f5 = open ("VipulExercise.txt")
             print(f5.read)
             f5.close
